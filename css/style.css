@@ -1,0 +1,49 @@
+  #carouselTemoignages {
+    max-width: 700px;
+    margin: 0 auto; 
+  }
+
+  #icon {
+    width: 80px; height: 80px; font-size: 2rem;
+}
+
+
+.hover-card{
+    transition: all .5s ease;
+}
+
+.hover-card:hover{
+    transform: translateY(-10px);
+}
+
+
+.nav-link{
+    transition: all .5s ease;
+}
+
+.nav-link:hover{
+    transform: translateY(-4px);
+}
+
+
+.btn{
+    transition: all .5s ease;
+}
+
+.btn:hover{
+     transform: translateY(-4px);
+}
+
+
+
+  #backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+    display: none;
+    z-index: 9999;
+    transition: opacity 0.3s ease;
+  }
